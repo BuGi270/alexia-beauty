@@ -1,0 +1,137 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family:courier new;
+    margin: 0;
+
+}
+a {
+    text-decoration: none;
+    color: rgb(139, 139, 139);
+}
+a:hover {
+    text-decoration: underline 2px;
+}
+
+
+
+
+
+
+    header {
+        display: block;
+        background-color: rgb(255, 255, 255);
+        width:100%;
+        left: 0;
+        top: 0;
+        padding: 2vw 0 2vw 1vw;
+        position: fixed;
+        box-shadow: 1px 1px 10px rgb(196, 196, 196);
+    }
+    #Phone {
+        font-size: 30px;
+        display: inline-flexbox;
+        position: absolute;
+        justify-content: center;
+        
+    }
+    #header_menu {
+        display: flex;
+        justify-content: right;
+        margin-right: 4vw;
+
+    }
+    ul {
+        display: inline;
+        flex-direction: row;
+        list-style: none;
+        font-size: 20px;
+    }
+    #logo {
+        display:flex;
+        margin: 7vw 0 2vw 0;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 1px 1px 10px rgb(196, 196, 196);
+    }
+
+
+
+
+
+
+        main {
+            margin: 0 4vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .Topic {
+            scroll-margin: 10vw;
+            width:  auto;
+            background-color: rgb(255, 255, 255);
+            margin: 4vw 0 1vw 0;
+            padding: 2vw;
+            box-shadow: 1px 1px 10px rgb(196, 196, 196);
+            border-radius: 1em;
+        }
+        .text {
+            border-top: solid;
+            padding-top: 1vw;
+        }
+        .sections {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .section {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            width: 800px ;
+            height: auto;
+            padding-bottom: 2vw;
+            background-color: rgb(255, 255, 255);
+            border: solid transparent 0px;
+            border-radius: 1em;
+            margin: 4vw 0 1vw 0;
+            box-shadow: 1px 1px 10px rgb(196, 196, 196);
+        }
+        .section:hover{
+            box-shadow: 10px 20px 30px rgb(196, 196, 196)
+        }
+        .h1cards {
+            padding-bottom: 1vw;
+            border-bottom: solid ;
+        }
+        .h1cards, .pcards {
+            margin: 2vw;
+        }
+        #foto1 {
+            border: solid transparent 0px;
+            border-top-left-radius: 1em;
+            border-top-right-radius: 1em;
+        }
+        #map {
+            display: flex;
+        justify-content: center;
+        }
+
+
+
+
+
+
+            footer {
+                text-align: center;
+                width: 100%;
+                display: block;
+                padding: 2vw;
+            }
+
+
+
+
+
+                @keyframes hover {
+                    99% {box-shadow: 10px 20px 30px rgb(196, 196, 196);}
+                 }
