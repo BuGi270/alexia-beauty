@@ -11,6 +11,9 @@ a {
 a:hover {
     text-decoration: underline 2px;
 }
+hr {
+    width: 60%;
+}
 
 
 
@@ -23,7 +26,7 @@ a:hover {
         width:100%;
         left: 0;
         top: 0;
-        padding: 2vw 0 2vw 1vw;
+        padding: 1vw 0 1vw 1vw;
         position: fixed;
         box-shadow: 1px 1px 10px rgb(196, 196, 196);
     }
@@ -35,6 +38,7 @@ a:hover {
         justify-content: center;
         
     }
+
     #header_menu {
         display: flex;
         justify-content: right;
@@ -49,10 +53,10 @@ a:hover {
     }
     #logo {
         display:flex;
-        margin: 7vw 0 2vw 0;
+        margin: 9vw 0 2vw 0;
         margin-left: auto;
         margin-right: auto;
-        box-shadow: 1px 1px 10px rgb(196, 196, 196);
+
     }
 
 
@@ -68,21 +72,25 @@ a:hover {
         }
         .Topic {
             scroll-margin: 10vw;
-            width:  auto;
+            width:  80vw;
             background-color: rgb(255, 255, 255);
-            margin: 4vw 0 1vw 0;
+            margin: 2vw 0 2vw 0;
             padding: 2vw;
             box-shadow: 1px 1px 10px rgb(196, 196, 196);
             border-radius: 1em;
+            display:block;
+            align-self: center;
         }
         .text {
             border-top: solid;
             padding-top: 1vw;
         }
         .sections {
+            width: auto;
             display: flex;
-            justify-content: space-around;
+            justify-content:center;
             flex-wrap: wrap;
+            margin: 2vw 0;
         }
         .section {
             display: flex;
@@ -94,7 +102,8 @@ a:hover {
             background-color: rgb(255, 255, 255);
             border: solid transparent 0px;
             border-radius: 1em;
-            margin: 4vw 0 1vw 0;
+            margin: 1vw ;
+
             box-shadow: 1px 1px 10px rgb(196, 196, 196);
         }
         .section:hover{
@@ -121,14 +130,11 @@ a:hover {
 
 
 
+        footer {
+        text-align: center;
+        padding: 1vw;
 
-            footer {
-                text-align: center;
-                width: 100%;
-                display: block;
-                padding: 2vw;
-            }
-
+        }
 
 
 
