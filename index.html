@@ -4,6 +4,9 @@
     <title>Alexia Beauty</title>
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="images/logo.jpg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@600&display=swap" rel="stylesheet">
 </head>
 
 
@@ -11,38 +14,59 @@
 
 <body>
     <header>
-        <a href="tel:665-643-345" id="Phone"><img src="images/mobile-phone.png" height="64px"></a>
-        <li id="header_menu">
-            <ul><a href="#About">O mnie</a></ul>
-            <ul><a href="#main">Home</a></ul>
-            <ul><a href="#main">Home</a></ul>
-            <ul><a href="#main">Home</a></ul>
-            <ul><a href="#Locate">Lokalizacja</a></ul>
-        </li>
+        <ul id="header_menu">
+
+            <li class="ul_menu">
+                <ul id="phone_menu" href="tel:+48665643345">
+                    <a href="tel:+48665643345"><li><img src="images/mobile-phone.png" height="64px" style="margin-right: 1vw;"></li></a>
+                    <a href="tel:+48665643345"><li>+48 665 643 345</li></a>
+                </ul>
+            </li>
+
+
+            <li id="logo_menu" class="ul_menu">
+                <img src="images/logo.png" height="50px">
+            </li>
+
+
+            <li class="ul_menu">
+                <ul id="link_menu">
+                    <li><a href="#About">O mnie</a></li>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#main">Home</a></li>
+                    <li><a href="#Locate">Lokalizacja</a></li>
+                </ul>
+            </li>
+
+        </ul>
     </header>
 
 
 
 
-    <picture id="logo"">
-        <source media="(min-width: 1080px)" srcset="images/banner.png" />
-        <img src="images/banner_phone.png" height="auto">
-    </picture>
+
+        <img src="images/text.png" height=160vw" id="logo">
+
     
-    
+        
     
 
     <main id="main">
         <div class="Topic" id="About">
             <h1>O Mnie</h1>
             <div class="text">
-                <p></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim magni dolore laudantium, saepe est consequuntur repellat sapiente eius ipsam. Commodi totam recusandae labore quis deserunt nemo impedit ad? Obcaecati, voluptates.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores delectus natus distinctio corporis amet architecto perferendis minus quod, modi dolor ipsam laboriosam qui magnam tempora error quia. Ullam, impedit quam?
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam velit iusto architecto eaque officiis error. Earum inventore, sit quae aliquam eligendi nostrum reprehenderit aut ex culpa corporis illo minus veritatis.
+                </p>
             </div>
         </div>
 
 
+        <hr>
 
-
+        
         <div class="sections">
             <div class="section">
                 <img src="images/paznokcie-ze-zlotym-zdobieniem.jpg" width="800px" id="foto1">
@@ -54,34 +78,28 @@
                 <h1 class="h1cards">Paznokcie</h1>
                 <p class="pcards">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni sunt, odit suscipit aut quam velit accusamus officiis animi voluptates sed ad, repellendus, facilis error itaque quia reiciendis vitae inventore eligendi XDDDDDDDDDD.</p>
             </div>
-            <div class="section">
-                <img src="images/paznokcie-ze-zlotym-zdobieniem.jpg" width="800px" id="foto1">
-                <h1 class="h1cards">Paznokcie</h1>
-                <p class="pcards">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni sunt, odit suscipit aut quam velit accusamus officiis animi voluptates sed ad, repellendus, facilis error itaque quia reiciendis vitae inventore eligendi XDDDDDDDDDD.</p>
-            </div>
-            <div class="section">
-                <img src="images/paznokcie-ze-zlotym-zdobieniem.jpg" width="800px" id="foto1">
-                <h1 class="h1cards">Paznokcie</h1>
-                <p class="pcards">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni sunt, odit suscipit aut quam velit accusamus officiis animi voluptates sed ad, repellendus, facilis error itaque quia reiciendis vitae inventore eligendi XDDDDDDDDDD.</p>
-            </div>
         </div>
 
 
+        <hr>
 
-
+        
             <div class="Topic" id="Locate">
                 <h1>Lokalizacja</h1>
                 <div class="text" id="map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d153.15551122507281!2d19.94724575893469!3d52.10724583872162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471be66d38f92bad%3A0xba776af7c1fcf5d6!2s3%20Maja%206%2C%2099-400%20%C5%81owicz!5e0!3m2!1spl!2spl!4v1709666785323!5m2!1spl!2spl" width="800vw" height="450vw" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d153.15551122507281!2d19.94724575893469!3d52.10724583872162!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471be66d38f92bad%3A0xba776af7c1fcf5d6!2s3%20Maja%206%2C%2099-400%20%C5%81owicz!5e0!3m2!1spl!2spl!4v1709666785323!5m2!1spl!2spl" width="1000vw" height="450vw" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
     </main>
 
 
+<hr>
 
 
     <footer>
-        &copy
+        <p>&copy; Alexia Beauty 2024<p>
+        <a href="https://www.facebook.com/p/Stylizacja-paznokci-Alexia-Beauty-100039554211058/?_rdr"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" height="30" viewBox="0 0 50 50" class="icon icons8-Facebook-Filled"><path d="M40,0H10C4.486,0,0,4.486,0,10v30c0,5.514,4.486,10,10,10h30c5.514,0,10-4.486,10-10V10C50,4.486,45.514,0,40,0z M39,17h-3 c-2.145,0-3,0.504-3,2v3h6l-1,6h-5v20h-7V28h-3v-6h3v-3c0-4.677,1.581-8,7-8c2.902,0,6,1,6,1V17z"></path></svg></a>
     </footer>
+    
 </body>
 </html>

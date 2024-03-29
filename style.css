@@ -1,6 +1,9 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
     background-color: rgb(255, 255, 255);
-    font-family:courier new;
+    font-family: 'Rethink Sans', sans-serif;
     margin: 0;
 
 }
@@ -11,6 +14,9 @@ a {
 a:hover {
     text-decoration: underline 2px;
 }
+hr {
+    width: 60%;
+}
 
 
 
@@ -18,41 +24,62 @@ a:hover {
 
 
     header {
-        display: block;
         background-color: rgb(255, 255, 255);
         width:100%;
         left: 0;
         top: 0;
-        padding: 2vw 0 2vw 1vw;
         position: fixed;
         box-shadow: 1px 1px 10px rgb(196, 196, 196);
-    }
-    #Phone {
-        font-size: 30px;
-        display: inline-flexbox;
-        position: absolute;
-        justify-content: center;
-        
-    }
-    #header_menu {
-        display: flex;
-        justify-content: right;
-        margin-right: 4vw;
-
+        align-items: center;
     }
     ul {
-        display: inline;
-        flex-direction: row;
+        align-items: center;
+        padding: 0;
+        display: flex;
         list-style: none;
-        font-size: 20px;
     }
+    #link_menu li{
+        flex-grow: 1;
+    }
+    #header_menu {
+        list-style: none;
+        justify-content: space-between;
+        display: flex;
+        padding: 0 2vw 0 2vw;
+        
+    }
+    .ul_menu {
+        flex: 1;
+        text-align: center;
+    }
+    #phone_menu {
+        padding: 0;       
+    }
+    #logo_menu {
+        padding: 0;
+
+    }
+    #link_menu {
+        
+        padding: 0;
+    }
+
+
+
+
+
+
+
+
     #logo {
         display:flex;
-        margin: 7vw 0 2vw 0;
+        justify-content: center;
+        margin: 120px 0 0 0;
         margin-left: auto;
         margin-right: auto;
-        box-shadow: 1px 1px 10px rgb(196, 196, 196);
+
     }
+
 
 
 
@@ -67,21 +94,25 @@ a:hover {
         }
         .Topic {
             scroll-margin: 10vw;
-            width:  auto;
+            width:  80vw;
             background-color: rgb(255, 255, 255);
-            margin: 4vw 0 1vw 0;
+            margin: 2vw 0 2vw 0;
             padding: 2vw;
             box-shadow: 1px 1px 10px rgb(196, 196, 196);
             border-radius: 1em;
+            display:block;
+            align-self: center;
         }
         .text {
             border-top: solid;
             padding-top: 1vw;
         }
         .sections {
+            width: auto;
             display: flex;
-            justify-content: space-around;
+            justify-content:center;
             flex-wrap: wrap;
+            margin: 2vw 0;
         }
         .section {
             display: flex;
@@ -93,7 +124,8 @@ a:hover {
             background-color: rgb(255, 255, 255);
             border: solid transparent 0px;
             border-radius: 1em;
-            margin: 4vw 0 1vw 0;
+            margin: 1vw ;
+
             box-shadow: 1px 1px 10px rgb(196, 196, 196);
         }
         .section:hover{
@@ -120,14 +152,17 @@ a:hover {
 
 
 
+        footer {
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            text-align: center;
+            padding: 1vw;
 
-            footer {
-                text-align: center;
-                width: 100%;
-                display: block;
-                padding: 2vw;
-            }
-
+        }
+        footer p {
+            padding: 0 0 0 1vw;
+        }
 
 
 
