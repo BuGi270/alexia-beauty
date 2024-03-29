@@ -35,16 +35,17 @@ hr {
         display: flex;
         list-style: none;
     }
-    li{
+    .li_menu{
         flex-grow: 1;
     }
     #header_menu {
         list-style: none;
         justify-content: space-between;
         display: flex;
+        padding: 0 2vw 0 2vw;
         
     }
-    .menu_list {
+    .ul_menu {
         flex: 1;
         text-align: center;
     }
